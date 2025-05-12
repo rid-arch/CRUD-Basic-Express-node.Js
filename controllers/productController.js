@@ -1,3 +1,5 @@
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const Product = require('../models/productModel');
 
 exports.getAll = (req, res) => {
